@@ -6,10 +6,10 @@ spring:
     hikari:
       maximum-pool-size: 20
       minimum-idle: 10
-  rabbitmq:
-      host: 192.168.226.132
   application:
     name: producer-service
+  rabbitmq:
+    host: 192.168.226.132
 mybatis:
   type-aliases-package: com.eureka.producerdemo.pojo
 eureka:

@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/leyou?serverTimezone=UTC # 连自己的数据库即可
+    url: jdbc:mysql://127.0.0.1:3306/ssm?serverTimezone=UTC # 连自己的数据库即可
     username: root
     password: root
     hikari:
@@ -27,4 +27,4 @@ eureka:
     lease-expiration-duration-in-seconds: 90 # 服务失效时间，默认值90秒（90秒即过期）
     lease-renewal-interval-in-seconds: 30 # 服务续约(renew)的间隔，默认为30秒（也就是30秒一次心跳）
     instance-id: ${spring.application.name}:${server.port} # 修改Eureka的Status一列的构成
-ip: 123.123.123.999
+ip: 123.123.123.1122

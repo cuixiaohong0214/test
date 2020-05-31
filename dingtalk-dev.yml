@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: integral-dingtalk-provider
+  rabbitmq:
+    host: 192.168.226.132
+    username: guest
+    password: guest
+    virtual-host: /
   datasource:
     url: jdbc:mysql://Lenovo:3306/mybatis?useUnicode=true&characterEncoding=utf-8
     username: root
